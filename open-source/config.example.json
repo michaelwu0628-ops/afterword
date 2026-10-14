@@ -1,0 +1,12 @@
+{
+  "purpose": "仅说明页面字段。程序不会读取此文件；不要在仓库内填写真实凭据。",
+  "voice": {
+    "authType": "api-key",
+    "apiKey": "YOUR_DOUBAO_VOICE_API_KEY",
+    "replyWait": 1500
+  },
+  "optionalTextFeedback": {
+    "workspace": "YOUR_BEIJING_WORKSPACE_ID_OR_BASE_URL",
+    "apiKey": "YOUR_BAILIAN_API_KEY"
+  }
+}
