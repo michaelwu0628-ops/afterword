@@ -15,7 +15,7 @@
    ```
 
    `setup` 按 `qwen-probe/package-lock.json` 安装锁定依赖，没有 Python、数据库或 Docker 依赖。首次安装需要网络。
-3. 保持终端运行，浏览器打开 **http://127.0.0.1:53219/**。停止时在终端按 `Ctrl+C`。以后只需运行 `npm start`。
+3. 保持终端运行，浏览器打开 [http://127.0.0.1:53219/](http://127.0.0.1:53219/)。停止时在终端按 `Ctrl+C`。以后只需运行 `npm start`。
 4. 打开「AI 服务设置」，填入你自己的凭据并保存，然后开始练习。不要把 Key 提交到仓库、Issue、截图或公开备份。
 
 Windows 可在解压文件夹中打开终端／PowerShell，macOS／Linux 在终端进入该目录。若 PowerShell 阻止 `npm.ps1`，可改用 `npm.cmd run setup`、`npm.cmd start`，不需要关闭系统执行策略。浏览器推荐近期版本的 Edge／Chrome；其他浏览器及操作系统尚未逐一真实验收。
