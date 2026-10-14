@@ -1,0 +1,25 @@
+{
+  "name": "qwen-local-diagnostic",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "coach": "node coach-server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check server.mjs && node --check provider.mjs && node --check feedback.mjs && node --check public/app.mjs && node --check public/audio.mjs && node --check public/connection.mjs && node --check public/capture-worklet.mjs && node --check coach-session.mjs && node --check doubao-protocol.mjs && node --check doubao-coach.mjs && node --check coach-server.mjs && node --check public/coach-app.mjs && node --check public/coach-connection.mjs && node --check public/turn-detector.mjs && node --check knowledge.mjs && node --check knowledge-store.mjs && node --check knowledge-evaluation.mjs && node --check scripts/build-knowledge-graph.mjs && node --check scripts/evaluate-knowledge.mjs && node --check knowledge-review.mjs && node --check scripts/review-knowledge.mjs && node --check material.mjs && node --check mvp-server.mjs && node --check public/mvp-app.mjs && node --check public/mvp-session.mjs && node --check public/mvp-store.mjs && node --check public/mvp-part2.mjs && node --check public/mvp-backup.mjs && node --check scripts/build-release.mjs",
+    "knowledge:build": "node scripts/build-knowledge-graph.mjs",
+    "eval:knowledge": "node scripts/evaluate-knowledge.mjs",
+    "eval:review:prepare": "node scripts/review-knowledge.mjs prepare",
+    "eval:review:score": "node scripts/review-knowledge.mjs score",
+    "mvp": "node mvp-server.mjs",
+    "release:prepare": "node scripts/build-release.mjs"
+  },
+  "dependencies": {
+    "ws": "8.22.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  }
+}
