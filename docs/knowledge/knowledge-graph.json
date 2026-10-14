@@ -1,0 +1,2084 @@
+{
+  "version": "2026-10-14.v1",
+  "nodes": [
+    {
+      "id": "card:official-card-cp01",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-cp02",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-cp03",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-cp04",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-cp05",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-cp06",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-cp07",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-cp08",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-ex01",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-ex02",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-ex03",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-ex04",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-ex05",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-ex06",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-ex07",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-ex08",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-op01",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-op02",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-op03",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-op04",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-op05",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-op06",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-op07",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-op08",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-rs01",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-rs02",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-rs03",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-rs04",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-rs05",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-rs06",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-rs07",
+      "type": "card"
+    },
+    {
+      "id": "card:official-card-rs08",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-01",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-02",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-03",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-04",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-05",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-06",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-07",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-08",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-09",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-10",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-11",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-12",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-13",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-14",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-15",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-16",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-17",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-18",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-19",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-20",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-21",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-22",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-23",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-24",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-25",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-26",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-27",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-28",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-29",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-30",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-31",
+      "type": "card"
+    },
+    {
+      "id": "card:usage-32",
+      "type": "card"
+    },
+    {
+      "id": "intent:comparison",
+      "type": "intent"
+    },
+    {
+      "id": "intent:experience",
+      "type": "intent"
+    },
+    {
+      "id": "intent:opinion",
+      "type": "intent"
+    },
+    {
+      "id": "intent:reasons",
+      "type": "intent"
+    },
+    {
+      "id": "register:conversational",
+      "type": "register"
+    },
+    {
+      "id": "register:literally 的非字面强调义标为非正式；需按语境判断。",
+      "type": "register"
+    },
+    {
+      "id": "register:much/far 中性；a bit 较口语。",
+      "type": "register"
+    },
+    {
+      "id": "register:neutral",
+      "type": "register"
+    },
+    {
+      "id": "register:neutral_firm",
+      "type": "register"
+    },
+    {
+      "id": "register:neutral_tentative",
+      "type": "register"
+    },
+    {
+      "id": "register:whereas 略偏正式；while 在合适语境也可对照。",
+      "type": "register"
+    },
+    {
+      "id": "register:两者均可用于讨论；such as 常接一组例项。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性、常带礼貌选择语气。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性会话。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性叙事。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性叙述。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性口语；可配合解释缓和语气。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性口语；正式讨论也可用。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性至稍正式；可用于较完整的回答。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性至稍正式；适合一般讨论。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性讨论；可用于工作或学习场景。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性；though 在口语也常用。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性；与 because 的结构不同。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性；口语和书面语均常见。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性；可用于过去、现在或将来。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性；可表示一般偏好。",
+      "type": "register"
+    },
+    {
+      "id": "register:中性；常用于较柔和的比较。",
+      "type": "register"
+    },
+    {
+      "id": "register:主要用于自然口语。",
+      "type": "register"
+    },
+    {
+      "id": "register:合作式口语讨论。",
+      "type": "register"
+    },
+    {
+      "id": "register:常见口语；纠正语气受语调影响。",
+      "type": "register"
+    },
+    {
+      "id": "register:常规标准形式；适合学习者写作。",
+      "type": "register"
+    },
+    {
+      "id": "register:比 because 相对正式；自然度取决于场景。",
+      "type": "register"
+    },
+    {
+      "id": "register:自然口语和一般书面语。",
+      "type": "register"
+    },
+    {
+      "id": "register:自然口语；become used to 是可用替代。",
+      "type": "register"
+    },
+    {
+      "id": "register:自然口语；可加理由使选择清楚。",
+      "type": "register"
+    },
+    {
+      "id": "register:自然口语；常用于主观选择。",
+      "type": "register"
+    },
+    {
+      "id": "register:适合回忆和故事；比 used to 略偏叙事。",
+      "type": "register"
+    },
+    {
+      "id": "source:idp-pending-01",
+      "type": "source"
+    },
+    {
+      "id": "source:idp-pending-02",
+      "type": "source"
+    },
+    {
+      "id": "source:idp-pending-03",
+      "type": "source"
+    },
+    {
+      "id": "source:official-01",
+      "type": "source"
+    },
+    {
+      "id": "source:official-02",
+      "type": "source"
+    },
+    {
+      "id": "source:official-03",
+      "type": "source"
+    },
+    {
+      "id": "source:official-04",
+      "type": "source"
+    },
+    {
+      "id": "source:official-05",
+      "type": "source"
+    },
+    {
+      "id": "source:official-06",
+      "type": "source"
+    },
+    {
+      "id": "source:official-07",
+      "type": "source"
+    },
+    {
+      "id": "source:official-08",
+      "type": "source"
+    },
+    {
+      "id": "source:official-09",
+      "type": "source"
+    },
+    {
+      "id": "source:official-10",
+      "type": "source"
+    },
+    {
+      "id": "source:official-11",
+      "type": "source"
+    },
+    {
+      "id": "source:official-12",
+      "type": "source"
+    },
+    {
+      "id": "source:official-13",
+      "type": "source"
+    },
+    {
+      "id": "source:official-14",
+      "type": "source"
+    },
+    {
+      "id": "source:official-15",
+      "type": "source"
+    },
+    {
+      "id": "source:official-16",
+      "type": "source"
+    },
+    {
+      "id": "source:review-src-01",
+      "type": "source"
+    },
+    {
+      "id": "source:review-src-02",
+      "type": "source"
+    },
+    {
+      "id": "source:social-bili-01",
+      "type": "source"
+    },
+    {
+      "id": "source:social-bili-02",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-01",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-03",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-04",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-05",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-06",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-07",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-08",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-09",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-10",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-11",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-13",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-15",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-16",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-17",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-18",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-19",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-20",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-21",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-22",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-23",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-24",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-25",
+      "type": "source"
+    },
+    {
+      "id": "source:usage-src-26",
+      "type": "source"
+    }
+  ],
+  "edges": [
+    {
+      "source": "card:official-card-cp01",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-cp01",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-cp01",
+      "target": "card:official-card-cp02",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp01",
+      "target": "card:usage-25",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp01",
+      "target": "source:official-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp02",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-cp02",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-cp02",
+      "target": "card:official-card-cp01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp02",
+      "target": "card:usage-26",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp02",
+      "target": "source:official-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp03",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-cp03",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-cp03",
+      "target": "card:official-card-cp04",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp03",
+      "target": "source:official-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp04",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-cp04",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-cp04",
+      "target": "card:official-card-cp03",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp04",
+      "target": "source:official-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp05",
+      "target": "card:official-card-cp06",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:official-card-cp05",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-cp05",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-cp05",
+      "target": "source:official-08",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp06",
+      "target": "card:official-card-cp05",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:official-card-cp06",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-cp06",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-cp06",
+      "target": "card:usage-32",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp06",
+      "target": "source:official-15",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp06",
+      "target": "source:review-src-01",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp06",
+      "target": "source:review-src-02",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp07",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-cp07",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-cp07",
+      "target": "card:official-card-cp01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp07",
+      "target": "source:official-08",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-cp08",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-cp08",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-cp08",
+      "target": "card:official-card-cp07",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-cp08",
+      "target": "source:official-16",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-ex01",
+      "target": "card:official-card-ex05",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:official-card-ex01",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-ex01",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-ex01",
+      "target": "card:usage-23",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-ex01",
+      "target": "source:official-13",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-ex02",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-ex02",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-ex02",
+      "target": "card:official-card-ex01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-ex02",
+      "target": "source:official-13",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-ex03",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-ex03",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-ex03",
+      "target": "card:official-card-ex08",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-ex03",
+      "target": "source:official-04",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-ex04",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-ex04",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-ex04",
+      "target": "card:official-card-ex08",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-ex04",
+      "target": "source:official-15",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-ex05",
+      "target": "card:official-card-ex01",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:official-card-ex05",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-ex05",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-ex05",
+      "target": "card:usage-22",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-ex05",
+      "target": "source:official-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-ex06",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-ex06",
+      "target": "register:conversational",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-ex06",
+      "target": "card:official-card-ex05",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-ex06",
+      "target": "source:official-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-ex07",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-ex07",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-ex07",
+      "target": "card:official-card-ex03",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-ex07",
+      "target": "source:official-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-ex08",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-ex08",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-ex08",
+      "target": "card:official-card-ex04",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-ex08",
+      "target": "source:official-04",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op01",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-op01",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-op01",
+      "target": "card:official-card-op03",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-op01",
+      "target": "card:usage-01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-op01",
+      "target": "source:official-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op01",
+      "target": "source:official-08",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op01",
+      "target": "source:official-14",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op02",
+      "target": "card:official-card-op08",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:official-card-op02",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-op02",
+      "target": "register:conversational",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-op02",
+      "target": "source:official-12",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op03",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-op03",
+      "target": "register:conversational",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-op03",
+      "target": "card:official-card-op04",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-op03",
+      "target": "source:official-06",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op04",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-op04",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-op04",
+      "target": "card:official-card-op03",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-op04",
+      "target": "source:official-14",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op05",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-op05",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-op05",
+      "target": "card:official-card-op06",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-op05",
+      "target": "source:official-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op06",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-op06",
+      "target": "register:conversational",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-op06",
+      "target": "card:official-card-op05",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-op06",
+      "target": "card:usage-06",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-op06",
+      "target": "source:official-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op07",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-op07",
+      "target": "register:conversational",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-op07",
+      "target": "card:official-card-op04",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-op07",
+      "target": "source:official-08",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-op08",
+      "target": "card:official-card-op02",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:official-card-op08",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-op08",
+      "target": "register:neutral_firm",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-op08",
+      "target": "source:official-16",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-rs01",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-rs01",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-rs01",
+      "target": "card:official-card-rs07",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs01",
+      "target": "card:usage-11",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs01",
+      "target": "source:official-08",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-rs02",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-rs02",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-rs02",
+      "target": "card:official-card-rs04",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs02",
+      "target": "source:official-14",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-rs03",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-rs03",
+      "target": "register:conversational",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-rs03",
+      "target": "card:official-card-rs07",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs03",
+      "target": "card:usage-09",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs03",
+      "target": "source:official-15",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-rs04",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-rs04",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-rs04",
+      "target": "card:official-card-rs01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs04",
+      "target": "source:official-15",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-rs05",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-rs05",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-rs05",
+      "target": "card:official-card-rs06",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs05",
+      "target": "source:official-15",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-rs06",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-rs06",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-rs06",
+      "target": "card:official-card-rs05",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs06",
+      "target": "source:official-14",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-rs07",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-rs07",
+      "target": "register:neutral",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-rs07",
+      "target": "card:official-card-rs01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs07",
+      "target": "source:official-08",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:official-card-rs08",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:official-card-rs08",
+      "target": "register:neutral_tentative",
+      "type": "has_register"
+    },
+    {
+      "source": "card:official-card-rs08",
+      "target": "card:official-card-rs03",
+      "type": "related_to"
+    },
+    {
+      "source": "card:official-card-rs08",
+      "target": "source:official-01",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-01",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-01",
+      "target": "register:中性口语；正式讨论也可用。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-01",
+      "target": "card:official-card-op01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-01",
+      "target": "card:usage-02",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-01",
+      "target": "source:official-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-01",
+      "target": "source:usage-src-01",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-02",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-02",
+      "target": "register:中性至稍正式；适合一般讨论。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-02",
+      "target": "card:usage-01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-02",
+      "target": "source:usage-src-01",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-03",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-03",
+      "target": "register:自然口语；常用于主观选择。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-03",
+      "target": "card:usage-29",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-03",
+      "target": "source:usage-src-01",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-03",
+      "target": "source:usage-src-16",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-04",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-04",
+      "target": "register:中性口语；可配合解释缓和语气。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-04",
+      "target": "card:usage-05",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-04",
+      "target": "source:official-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-04",
+      "target": "source:usage-src-01",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-05",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-05",
+      "target": "register:中性讨论；可用于工作或学习场景。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-05",
+      "target": "card:usage-04",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-05",
+      "target": "source:official-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-06",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-06",
+      "target": "register:合作式口语讨论。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-06",
+      "target": "card:official-card-op06",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-06",
+      "target": "card:usage-13",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-06",
+      "target": "source:official-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-07",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-07",
+      "target": "register:常见口语；纠正语气受语调影响。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-07",
+      "target": "card:usage-08",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-07",
+      "target": "source:usage-src-03",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-08",
+      "target": "intent:opinion",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-08",
+      "target": "register:literally 的非字面强调义标为非正式；需按语境判断。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-08",
+      "target": "card:usage-07",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-08",
+      "target": "source:usage-src-04",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-09",
+      "target": "card:usage-10",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-09",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-09",
+      "target": "register:中性；口语和书面语均常见。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-09",
+      "target": "card:official-card-rs03",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-09",
+      "target": "card:usage-15",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-09",
+      "target": "source:usage-src-05",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-09",
+      "target": "source:usage-src-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-09",
+      "target": "source:usage-src-26",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-10",
+      "target": "card:usage-09",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-10",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-10",
+      "target": "register:中性；与 because 的结构不同。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-10",
+      "target": "source:usage-src-05",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-11",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-11",
+      "target": "register:中性至稍正式；可用于较完整的回答。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-11",
+      "target": "card:official-card-rs01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-11",
+      "target": "card:usage-09",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-11",
+      "target": "source:usage-src-06",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-12",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-12",
+      "target": "register:比 because 相对正式；自然度取决于场景。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-12",
+      "target": "card:usage-09",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-12",
+      "target": "source:usage-src-07",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-13",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-13",
+      "target": "register:中性；though 在口语也常用。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-13",
+      "target": "card:usage-06",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-13",
+      "target": "card:usage-14",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-13",
+      "target": "source:usage-src-08",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-13",
+      "target": "source:usage-src-09",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-14",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-14",
+      "target": "register:主要用于自然口语。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-14",
+      "target": "card:usage-13",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-14",
+      "target": "source:usage-src-08",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-15",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-15",
+      "target": "register:自然口语和一般书面语。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-15",
+      "target": "card:usage-09",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-15",
+      "target": "source:usage-src-09",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-16",
+      "target": "intent:reasons",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-16",
+      "target": "register:两者均可用于讨论；such as 常接一组例项。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-16",
+      "target": "card:usage-11",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-16",
+      "target": "source:usage-src-17",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-17",
+      "target": "card:usage-19",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-17",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-17",
+      "target": "register:中性叙述。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-17",
+      "target": "card:usage-18",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-17",
+      "target": "source:usage-src-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-17",
+      "target": "source:usage-src-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-18",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-18",
+      "target": "register:适合回忆和故事；比 used to 略偏叙事。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-18",
+      "target": "card:usage-17",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-18",
+      "target": "card:usage-23",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-18",
+      "target": "source:usage-src-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-19",
+      "target": "card:usage-17",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-19",
+      "target": "card:usage-20",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-19",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-19",
+      "target": "register:中性；可用于过去、现在或将来。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-19",
+      "target": "source:usage-src-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-20",
+      "target": "card:usage-19",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-20",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-20",
+      "target": "register:自然口语；become used to 是可用替代。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-20",
+      "target": "source:usage-src-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-21",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-21",
+      "target": "register:常规标准形式；适合学习者写作。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-21",
+      "target": "card:usage-17",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-21",
+      "target": "source:usage-src-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-21",
+      "target": "source:usage-src-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-22",
+      "target": "card:usage-23",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-22",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-22",
+      "target": "register:中性会话。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-22",
+      "target": "card:official-card-ex05",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-22",
+      "target": "source:official-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-23",
+      "target": "card:usage-22",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-23",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-23",
+      "target": "register:中性叙事。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-23",
+      "target": "card:official-card-ex01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-23",
+      "target": "card:usage-17",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-23",
+      "target": "source:official-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-23",
+      "target": "source:usage-src-11",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-24",
+      "target": "intent:experience",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-24",
+      "target": "register:中性会话。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-24",
+      "target": "card:usage-22",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-24",
+      "target": "source:usage-src-13",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-25",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-25",
+      "target": "register:中性。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-25",
+      "target": "card:official-card-cp01",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-25",
+      "target": "card:usage-26",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-25",
+      "target": "source:official-10",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-26",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-26",
+      "target": "register:much/far 中性；a bit 较口语。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-26",
+      "target": "card:official-card-cp02",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-26",
+      "target": "card:usage-25",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-26",
+      "target": "source:usage-src-15",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-27",
+      "target": "card:usage-28",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-27",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-27",
+      "target": "register:中性。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-27",
+      "target": "card:usage-25",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-27",
+      "target": "source:usage-src-15",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-28",
+      "target": "card:usage-27",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-28",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-28",
+      "target": "register:中性；常用于较柔和的比较。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-28",
+      "target": "source:usage-src-15",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-29",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-29",
+      "target": "register:中性；可表示一般偏好。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-29",
+      "target": "card:usage-30",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-29",
+      "target": "card:usage-31",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-29",
+      "target": "source:usage-src-16",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-30",
+      "target": "card:usage-31",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-30",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-30",
+      "target": "register:中性、常带礼貌选择语气。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-30",
+      "target": "card:usage-29",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-30",
+      "target": "source:usage-src-16",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-31",
+      "target": "card:usage-30",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "card:usage-31",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-31",
+      "target": "register:自然口语；可加理由使选择清楚。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-31",
+      "target": "card:usage-29",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-31",
+      "target": "source:usage-src-16",
+      "type": "supported_by"
+    },
+    {
+      "source": "card:usage-32",
+      "target": "intent:comparison",
+      "type": "expresses_intent"
+    },
+    {
+      "source": "card:usage-32",
+      "target": "register:whereas 略偏正式；while 在合适语境也可对照。",
+      "type": "has_register"
+    },
+    {
+      "source": "card:usage-32",
+      "target": "card:official-card-cp06",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-32",
+      "target": "card:usage-25",
+      "type": "related_to"
+    },
+    {
+      "source": "card:usage-32",
+      "target": "source:usage-src-18",
+      "type": "supported_by"
+    }
+  ]
+}
