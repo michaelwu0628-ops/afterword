@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>英语实时练习 · 通话验证</title><link rel="stylesheet" href="/coach.css"><script type="module" src="/coach-app.mjs"></script></head>
+<body><main>
+  <header><div><span class="eyebrow">英语听说练习 · 局部验证</span><h1>聊一会儿，再一起回顾。</h1></div><p>开口就聊，想练表达时再一起复盘。</p></header>
+  <div id="status" role="status" aria-live="polite" aria-atomic="true">先配置语音服务，再选择接话等待，点击开始练习。</div>
+    <details id="connection-settings" class="settings" open><summary id="settings-summary">准备练习</summary>
+      <h2 class="settings-heading">语音服务（必需）</h2>
+      <p>语音候选为豆包端到端 O2.0。调用由你的账户承担，请先核对该资源的计费设置。</p>
+      <label for="auth-type">语音鉴权方式</label>
+      <select id="auth-type"><option value="api-key" selected>新版 API Key</option><option value="legacy">旧版 App ID + Access Token</option></select>
+      <div id="api-key-fields" role="group" aria-label="新版语音鉴权">
+        <label for="voice-key">豆包语音 API Key</label>
+        <input id="voice-key" aria-describedby="voice-error" type="password" autocomplete="off" maxlength="2048" placeholder="填写豆包语音项目 API Key">
+      </div>
+      <div id="legacy-fields" role="group" aria-label="旧版语音鉴权" hidden>
+        <label for="app-id">豆包 App ID</label>
+        <input id="app-id" aria-describedby="voice-error" autocomplete="off" maxlength="256" placeholder="从豆包语音控制台获取">
+        <label for="access-token">豆包 Access Token</label>
+        <input id="access-token" aria-describedby="voice-error" type="password" autocomplete="off" maxlength="2048" placeholder="只在本页输入，不发进聊天">
+      </div>
+      <p id="voice-error" class="field-error" hidden></p>
+      <p class="note">切换鉴权方式会清空两种语音密钥。百炼文字 API Key 单独填写，不能用于语音连接。</p>
+      <details id="text-settings"><summary>文字复盘设置（可选 · 百炼 qwen-plus）</summary>
+        <p>填写后可请求语音复盘与文字建议；配置是否可用须以实际复盘结果验证。不填时，本次仅聊天，两种复盘均不可用。</p>
+        <label for="workspace">北京 Workspace ID 或 Base URL</label><input id="workspace" aria-describedby="text-error" autocomplete="off" maxlength="300" placeholder="控制台按量付费 Base URL">
+        <label for="text-key">百炼文字 API Key</label>
+        <input id="text-key" aria-describedby="text-error" type="password" autocomplete="off" maxlength="2048" placeholder="本页连接内存使用">
+        <p id="text-error" class="field-error" hidden></p>
+      </details>
+      <div class="capabilities" aria-label="本次可用能力"><p id="voice-capability">语音服务：等待连接验证</p><p id="text-capability">表达复盘：未配置，本次仅聊天。</p></div>
+      <label for="reply-wait">接话等待</label>
+      <select id="reply-wait" aria-describedby="reply-wait-note"><option value="1500" selected>自然接话（1.5 秒）</option><option value="3000">留出思考（3 秒）</option><option value="5000">更久（5 秒）</option></select>
+      <p class="note" id="reply-wait-note">此设置只调整停顿等待，实际接话还需服务处理和网络传输。此版本最长 5 分钟。</p>
+      <p class="note">凭据不持久保存。连接失败时，密钥保留在本页供手动重试；连接成功或离开页面会清空所有密钥输入，不自动重连。</p>
+      <div id="startup-actions" class="connection-feedback">
+        <button id="start" class="primary" aria-describedby="connection-status">开始练习</button>
+        <p id="connection-status">先配置语音服务，再选择接话等待，点击开始练习。</p>
+      </div>
+    </details>
+  <section id="call-controls-region" class="shared-call" hidden aria-label="通话状态与控制">
+    <div class="call-copy"><h2 id="call-state">准备好再开始</h2><p id="call-detail">设置完成后点击开始练习；语音服务就绪后申请麦克风权限。</p><p id="mic-status" class="mic-status">麦克风未开启</p></div>
+    <div class="call-controls"><div id="session-actions" class="actions"><button id="pause" hidden disabled>暂停收音</button><button id="end" class="end" hidden disabled>结束通话</button></div>
+    <div class="review-actions"><button id="review" hidden disabled>一起语音复盘</button><button id="resume-chat" hidden disabled>回到聊天</button></div></div>
+  </section>
+  <div id="view-tabs" class="view-tabs" hidden role="tablist" aria-label="本次练习视图">
+    <button id="call-tab" role="tab" aria-controls="practice-workspace" aria-selected="true" tabindex="0">通话</button>
+    <button id="review-tab" role="tab" aria-controls="practice-workspace" aria-selected="false" tabindex="-1">本次复盘</button>
+  </div>
+  <div id="practice-workspace" class="workspace" hidden role="tabpanel" aria-labelledby="call-tab" data-view="call" tabindex="0">
+    <section id="call-overview" class="call-panel" aria-label="实时通话">
+      <div class="call-orb" id="orb" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+      <h2>留一点时间，慢慢说。</h2>
+      <p>可以开口打断；暂停收音时，仍可听 AI 的回复。</p>
+      <details class="scope"><summary>这个验证页的范围</summary><p>本页验证实时接话、打断和一组表达复盘。表达知识卡已接入复盘；普通聊天尚未实时检索。素材导入、云历史、雅思 Part 2 和原音发音评测仍未接入，不从文字推算发音或雅思分数。复盘后的新回答会标为尚未纳入这组建议。</p></details>
+    </section>
+    <section id="record-panel" class="evidence-panel" aria-labelledby="record-heading">
+      <div class="record-heading"><h2 id="record-heading">本次原话与录音</h2><p class="note">本次记录仅在当前页面；刷新会清空，尚未接入云保存。回听在通话结束后开放。</p></div>
+      <div id="transcripts-scroll" class="transcripts-scroll" tabindex="0" role="region" aria-label="本次原话与录音记录">
+        <ol id="transcripts" class="transcripts"><li class="empty">开始聊天后，这里会出现你的原话与录音。</li></ol>
+      </div>
+      <button id="new-content" class="new-content" hidden>查看新内容</button>
+    </section>
+    <section id="report" class="report" aria-labelledby="report-heading" tabindex="0" hidden><h2 id="report-heading">文字复盘</h2><p id="report-status">可以在通话中主动复盘；没有主动复盘时，也会在结束后分析已有的聊天原话。</p><div id="suggestions"></div></section>
+  </div>
+</main></body></html>

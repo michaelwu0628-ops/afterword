@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Qwen · 本地语音连接测试</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <div><p class="eyebrow">北京工作空间 · 自带 Key</p><h1>Qwen 语音连接测试</h1><p class="intro">先录一小段，确认能听见彼此。这里验证连接与能力，尚未确定最终服务商。</p></div>
+      <p class="model-tag">语音 <strong>qwen3.8-omni-flash-realtime</strong><br>识别 <strong>qwen3-asr-flash-realtime</strong><br>点评 <strong>qwen-plus</strong></p>
+    </header>
+    <div class="status-bar" role="status" aria-live="polite"><span class="status-dot" id="status-dot"></span><strong id="status">尚未连接</strong><span id="detail">填写配置后，点击连接。不会自动发起请求。</span></div>
+    <div class="workspace">
+      <section class="panel connection-panel" aria-labelledby="connection-title">
+        <span class="step">01</span><h2 id="connection-title">连接百炼</h2>
+        <label for="workspace">北京 Workspace ID 或 Base URL</label>
+        <input id="workspace" type="text" autocomplete="off" spellcheck="false" placeholder="粘贴控制台中的北京 Base URL" maxlength="300">
+        <label for="api-key">API Key</label>
+        <input id="api-key" type="password" autocomplete="off" spellcheck="false" placeholder="仅在本次连接中使用" maxlength="2048">
+        <p class="field-note">点击连接即清空 Key 输入框；Key 仅留在本次连接内存，不写文件或浏览器存储。</p>
+        <fieldset id="mode-fieldset"><legend>会话模式</legend><label class="radio"><input name="mode" type="radio" value="manual" checked> 手动录音后发送 <span>建议首次使用</span></label><label class="radio"><input name="mode" type="radio" value="realtime"> 实时通话</label></fieldset>
+        <p class="field-note">连接后模式固定。切换模式前，请先断开连接。每次连接最多 5 分钟，到时会断开，需要手动重连。</p>
+        <div class="button-row"><button id="connect" class="primary">连接</button><button id="disconnect" disabled>断开</button></div>
+        <p class="quota-note">你已在控制台确认北京三模型均有有效免费额度，并开启「免费额度用完即停」。此页无法核验剩余额度或实际权限。</p>
+      </section>
+      <section class="panel voice-panel" aria-labelledby="voice-title">
+        <div class="section-heading"><div><span class="step">02</span><h2 id="voice-title">一小段英语对话</h2></div><span class="pill">录音自动识别</span></div>
+        <div id="manual-panel">
+          <p>先录 5–10 秒。停止后可回放、下载或丢弃，只有点击「发送这段录音」才会上传。</p>
+          <div class="recording-well"><div class="recording-orbit" id="recording-orbit"></div><strong id="duration">0.0 <small>秒 / 30 秒</small></strong><span id="draft-status">还没有录音草稿</span></div>
+          <div class="button-row recording-actions"><button id="record" class="primary" disabled>开始录音</button><button id="stop" disabled>停止录音</button></div>
+          <audio id="draft-player" controls preload="none" aria-label="本地录音草稿回放" hidden></audio>
+          <div class="button-row"><button id="replay" disabled>回放</button><button id="download" disabled>下载 WAV</button><button id="discard" disabled>丢弃</button><button id="send" class="primary" disabled>发送这段录音</button></div>
+          <p class="field-note">30 秒会自动停止并留为草稿，不会自动发送。最短 0.1 秒，每份草稿只能发送一次。</p>
+        </div>
+        <div id="realtime-panel" hidden>
+          <div class="call-well"><h3>给自己留一点思考时间</h3><p>配置确认后，点击「开始实时通话」才请求麦克风并上传音频。说完请等待约 5 秒，服务端才判断这一轮结束。</p><p>每次收音最多 30 秒；停止收音即释放麦克风。若收到迟到回复，可点「停止回复」。</p></div>
+          <div class="button-row"><button id="start-call" class="primary" disabled>开始实时通话</button><button id="stop-call" disabled>停止收音</button></div>
+        </div>
+        <div class="sent-status" id="sent-status" role="status">尚未发送音频。发送后会自动识别原话并给出表达建议。</div>
+        <div class="reply-heading"><h3>模型回复</h3><button id="cancel" disabled>停止回复</button></div>
+        <p id="response-status" class="field-note">等待首次回复。配置确认后才显示已就绪。</p>
+        <div id="assistant-text" class="assistant-text" aria-live="polite"></div>
+        <p class="privacy-note">手动录音草稿仅在本机浏览器内存。点击发送或开始实时通话后，语音会经本地服务发送到百炼；最终识别的原话会自动交给 qwen-plus 点评。本页不保存云端历史，录音和结果刷新后丢失。断开或关页会停止收音和播放，并释放本地草稿。</p>
+      </section>
+    </div>
+    <div class="lower-grid">
+      <section class="panel feedback-panel" aria-labelledby="feedback-title">
+        <span class="step">03</span><h2 id="feedback-title">说完之后，看看表达</h2>
+        <h3>你刚才说的</h3><p id="transcript-status" class="field-note" role="status">发送录音后，自动显示识别结果。</p>
+        <div id="user-transcript" class="user-transcript" lang="en" aria-live="polite"></div>
+        <h3>表达建议</h3><p id="feedback-status" class="field-note" role="status"></p><div id="feedback-result" aria-live="polite"></div>
+        <details id="correction-panel"><summary>识别有误？更正原话</summary>
+          <label for="feedback-text">确认识别文字，必要时再修改</label><textarea id="feedback-text" rows="3" maxlength="6000" lang="en" placeholder="有完整识别结果后会自动填入。"></textarea>
+          <button id="feedback" class="primary" disabled>更正后重新分析</button>
+        </details>
+        <p class="field-note">无需重复输入。每轮最终识别后自动给出最多三条表达建议；没有明显问题时可无需修改。只分析英文表达，暂不评价发音、流利度或 IELTS 分数。</p>
+      </section>
+      <section class="panel usage-panel" aria-labelledby="usage-title"><span class="step">记录</span><h2 id="usage-title">本次实际用量</h2><p>仅展示语音回复与文字点评返回的 token 用量。识别用量若未返回，记为未知。不估算人民币费用或剩余额度。</p><h3>语音回复</h3><pre id="voice-usage">尚无服务返回用量</pre><h3>文字建议（最近返回的一次）</h3><pre id="text-usage">尚无服务返回用量</pre></section>
+    </div>
+    <footer>这是本地连接测试页。长对话、打断后的上下文一致性、Part 2、发音评估与最终服务商选择仍待验证。</footer>
+  </main>
+</body>
+</html>
