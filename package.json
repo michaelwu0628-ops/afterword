@@ -1,0 +1,17 @@
+{
+  "name": "afterword-local",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "description": "Self-hosted English listening and speaking practice with local records and user-provided model accounts",
+  "engines": {"node": ">=24"},
+  "scripts": {
+    "setup": "npm ci --prefix qwen-probe",
+    "start": "node qwen-probe/mvp-server.mjs",
+    "test": "npm --prefix qwen-probe test",
+    "check": "npm --prefix qwen-probe run check",
+    "knowledge:build": "npm --prefix qwen-probe run knowledge:build",
+    "eval:knowledge": "npm --prefix qwen-probe run eval:knowledge",
+    "release:prepare": "node qwen-probe/scripts/build-release.mjs"
+  }
+}

@@ -1,0 +1,450 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "bytes": 485,
+      "sha256": "6bd1d39671e15994bf6ffe66361b04eed6d0a7ea777d10b9d5936788a66278ac"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 224,
+      "sha256": "bd092e21c4f1fc69b88be127760f594da7c3140e313889c2af5bb88736a86646"
+    },
+    {
+      "path": ".nvmrc",
+      "bytes": 3,
+      "sha256": "68ca3fba3b7e864770cb61aeb306d4bd4354b68ab4dd38450860c5d823e42a53"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1096,
+      "sha256": "3456285dab584a83d5ef9734e41ffff99d2cd7dcf4f0ae60412d6669b30d39a6"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1079,
+      "sha256": "a30b7ec81915dd0908e54c834cd6c6fca060a509ae352ab40c4c3db1faeed109"
+    },
+    {
+      "path": "PRIVACY.md",
+      "bytes": 1996,
+      "sha256": "1e14fe843ec8cce43f95e5405adc3d166b9c7bcd8a959664925c7675700d0dad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7274,
+      "sha256": "905f9b337fe2483a524b593d8e2e5ff8b220d4616e0097d1ad33ec6c901a3a61"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1665,
+      "sha256": "04b51bc1d19939f148171568d929cced93f6e9cdc32810c5c9c698a4a2c72988"
+    },
+    {
+      "path": "config.example.json",
+      "bytes": 351,
+      "sha256": "2f4103ae11ef8426cdf38db49890b55d05d3ebc78fb6394a12ea6b1df6f822ec"
+    },
+    {
+      "path": "docs/knowledge/README.md",
+      "bytes": 1519,
+      "sha256": "04f114cf354865299c17290a980a4f827360ae29887c2e9ffca3542eb264a227"
+    },
+    {
+      "path": "docs/knowledge/expression-cards.jsonl",
+      "bytes": 59179,
+      "sha256": "e3e5393256303b9262b677e2b76613697f8675aa68c18e5458d235e9276c5d47"
+    },
+    {
+      "path": "docs/knowledge/knowledge-graph.json",
+      "bytes": 47173,
+      "sha256": "bce1a029fe24285afa3e48cd372b36debec5da534b433295515bb241b5220123"
+    },
+    {
+      "path": "docs/knowledge/source-register.json",
+      "bytes": 38698,
+      "sha256": "5309d8cbfbe8179f7762c3c052e5e0cdd653b9f7c45ed74f7a3ff3a54820402f"
+    },
+    {
+      "path": "docs/validation/coach-quality-cases.jsonl",
+      "bytes": 22256,
+      "sha256": "ea64ab89abf9872351bc871a71a2b5b52479e07f56194d51f892b64e0845ccf5"
+    },
+    {
+      "path": "open-source/.github/workflows/ci.yml",
+      "bytes": 485,
+      "sha256": "6bd1d39671e15994bf6ffe66361b04eed6d0a7ea777d10b9d5936788a66278ac"
+    },
+    {
+      "path": "open-source/.gitignore",
+      "bytes": 224,
+      "sha256": "bd092e21c4f1fc69b88be127760f594da7c3140e313889c2af5bb88736a86646"
+    },
+    {
+      "path": "open-source/.nvmrc",
+      "bytes": 3,
+      "sha256": "68ca3fba3b7e864770cb61aeb306d4bd4354b68ab4dd38450860c5d823e42a53"
+    },
+    {
+      "path": "open-source/CONTRIBUTING.md",
+      "bytes": 1096,
+      "sha256": "3456285dab584a83d5ef9734e41ffff99d2cd7dcf4f0ae60412d6669b30d39a6"
+    },
+    {
+      "path": "open-source/LICENSE",
+      "bytes": 1079,
+      "sha256": "a30b7ec81915dd0908e54c834cd6c6fca060a509ae352ab40c4c3db1faeed109"
+    },
+    {
+      "path": "open-source/PRIVACY.md",
+      "bytes": 1996,
+      "sha256": "1e14fe843ec8cce43f95e5405adc3d166b9c7bcd8a959664925c7675700d0dad"
+    },
+    {
+      "path": "open-source/README.md",
+      "bytes": 7274,
+      "sha256": "905f9b337fe2483a524b593d8e2e5ff8b220d4616e0097d1ad33ec6c901a3a61"
+    },
+    {
+      "path": "open-source/THIRD_PARTY_NOTICES.md",
+      "bytes": 1665,
+      "sha256": "04b51bc1d19939f148171568d929cced93f6e9cdc32810c5c9c698a4a2c72988"
+    },
+    {
+      "path": "open-source/config.example.json",
+      "bytes": 351,
+      "sha256": "2f4103ae11ef8426cdf38db49890b55d05d3ebc78fb6394a12ea6b1df6f822ec"
+    },
+    {
+      "path": "open-source/docs/knowledge.md",
+      "bytes": 1519,
+      "sha256": "04f114cf354865299c17290a980a4f827360ae29887c2e9ffca3542eb264a227"
+    },
+    {
+      "path": "open-source/package.json",
+      "bytes": 657,
+      "sha256": "e2f13569c5ce121e476f773eb74b3a076ca427bb4d966217ff001b0194757b3a"
+    },
+    {
+      "path": "package.json",
+      "bytes": 657,
+      "sha256": "e2f13569c5ce121e476f773eb74b3a076ca427bb4d966217ff001b0194757b3a"
+    },
+    {
+      "path": "qwen-probe/coach-server.mjs",
+      "bytes": 4620,
+      "sha256": "0c4f93e5bc7e048310570192d0c5c1b76e0a6b9bdfd38a5e3384a2ec9bc3ca7f"
+    },
+    {
+      "path": "qwen-probe/coach-session.mjs",
+      "bytes": 4319,
+      "sha256": "a58049f4459e5d50abb408886e90f7e76e35947150f594f3ad45d747a3d09c8c"
+    },
+    {
+      "path": "qwen-probe/doubao-coach.mjs",
+      "bytes": 36542,
+      "sha256": "70fee7ea04baae355e1d7eb845001698baf81ee2a2e1bcc6036ef943a167483b"
+    },
+    {
+      "path": "qwen-probe/doubao-protocol.mjs",
+      "bytes": 9426,
+      "sha256": "7d1cdd01de90c67fcb9e53783758f4da229baa93610849178286118dd3643c13"
+    },
+    {
+      "path": "qwen-probe/feedback.mjs",
+      "bytes": 10692,
+      "sha256": "937f26fb23d2751b63ec933c7d341976fe8256a8b0709a141717b5aa4bd5170d"
+    },
+    {
+      "path": "qwen-probe/knowledge-evaluation.mjs",
+      "bytes": 8363,
+      "sha256": "4b8badcf05f631b7b35c91c5d1e832650ae6424e4aa1a8f6b90d24d48721c6dc"
+    },
+    {
+      "path": "qwen-probe/knowledge-review.mjs",
+      "bytes": 12913,
+      "sha256": "645c907b714af3ef97ec4c35b2575bfcaca0b8477116c810d857d483ab1da1f0"
+    },
+    {
+      "path": "qwen-probe/knowledge-store.mjs",
+      "bytes": 1297,
+      "sha256": "3dbf26b87b4d388ae6fc787c8b10d4d73c941d26f0d6d0b954253d97c796c8dd"
+    },
+    {
+      "path": "qwen-probe/knowledge.mjs",
+      "bytes": 16372,
+      "sha256": "89af4b0a631297db97088095e613f38a0db3fe32bb04361be70068451e820565"
+    },
+    {
+      "path": "qwen-probe/material.mjs",
+      "bytes": 23098,
+      "sha256": "44fab417568db2473fa504f0e5aa218e6c3118345838657d8f30dcfbd275a447"
+    },
+    {
+      "path": "qwen-probe/mvp-server.mjs",
+      "bytes": 7525,
+      "sha256": "18fd3b298a8b149374f938db423a40fb258cad367aff745f502a43c1b8d15946"
+    },
+    {
+      "path": "qwen-probe/package-lock.json",
+      "bytes": 931,
+      "sha256": "aa31a8b840b5ab567c4b841a55ce3d9a89451bf027c396acd7d66aff96614edd"
+    },
+    {
+      "path": "qwen-probe/package.json",
+      "bytes": 1767,
+      "sha256": "c01fdaa3647a985e02b8923bc4b76cf20f8f7f9b70f2a149237bf53a41a8f270"
+    },
+    {
+      "path": "qwen-probe/provider.mjs",
+      "bytes": 17237,
+      "sha256": "ca0dd4eb907444f7ff3a12301a4e964bb12bcdb4d7111ebd45a82cfa9e1a7e1d"
+    },
+    {
+      "path": "qwen-probe/public/app.mjs",
+      "bytes": 19708,
+      "sha256": "13f7bd6a6d9b2ac59c29c310472e440fa6b03c5b66b5c1dea59f6f088f9c0e09"
+    },
+    {
+      "path": "qwen-probe/public/audio.mjs",
+      "bytes": 12061,
+      "sha256": "cc929a524dfa10020db6fb1659b012b9c7dcdb0e9d6df9f38b626331de5d2390"
+    },
+    {
+      "path": "qwen-probe/public/capture-worklet.mjs",
+      "bytes": 575,
+      "sha256": "35d99a9a04398d2817d0f988ac34b2c3cf07e102ec6ec2257c1224c3e74d3c5a"
+    },
+    {
+      "path": "qwen-probe/public/coach-app.mjs",
+      "bytes": 27216,
+      "sha256": "a793108f5b735cdfa222f73f78dba2ebf010147d7faa113459b2916328f53c9c"
+    },
+    {
+      "path": "qwen-probe/public/coach-connection.mjs",
+      "bytes": 6902,
+      "sha256": "7a337b7e6a9cfeb4760f41bccb8a6b233fb82d5295ad1a4ab31f42e931866325"
+    },
+    {
+      "path": "qwen-probe/public/coach.css",
+      "bytes": 8257,
+      "sha256": "ed1491a731e7a49a8e2197f0f9186c6379cb2d017cebff4095d68c7cf05d240a"
+    },
+    {
+      "path": "qwen-probe/public/coach.html",
+      "bytes": 7032,
+      "sha256": "cd9f3038ba5aab75435b533f5073584e3ac81a25e31ac3382e4b2014f556fb5b"
+    },
+    {
+      "path": "qwen-probe/public/connection.mjs",
+      "bytes": 11298,
+      "sha256": "0c28bd839dfbf36fbd41e63ff3adbe1b7b9fb1e0fe275ffb4e0ee18b1c918612"
+    },
+    {
+      "path": "qwen-probe/public/index.html",
+      "bytes": 7235,
+      "sha256": "bdb619dbd1e740bf453f48ad5f2cfe0965ea59593b8a113145d5b77c280879d5"
+    },
+    {
+      "path": "qwen-probe/public/mvp-app.mjs",
+      "bytes": 38366,
+      "sha256": "ab0f6af09a1c1455e4d5005dbd55bfe4ca84ba74c550974db41b9ad151441ab1"
+    },
+    {
+      "path": "qwen-probe/public/mvp-backup.mjs",
+      "bytes": 7929,
+      "sha256": "3e6872e43af2810d0b03ffb671b4902bacdc4ec55414a80f7ee4411cce762871"
+    },
+    {
+      "path": "qwen-probe/public/mvp-part2.mjs",
+      "bytes": 4258,
+      "sha256": "5348544f8d9f212418fe14a780a06d6835f7a0a9b8443d394d04af3d0b75a752"
+    },
+    {
+      "path": "qwen-probe/public/mvp-session.mjs",
+      "bytes": 10398,
+      "sha256": "d61cf1cc179e9fbf39b0969e94a86fea5f86f6b9adac467085831566abf01810"
+    },
+    {
+      "path": "qwen-probe/public/mvp-store.mjs",
+      "bytes": 22881,
+      "sha256": "69c0c33a6ed0f7f0666c28abe677636e8673b1bb34cc4c2d5f13da532d741738"
+    },
+    {
+      "path": "qwen-probe/public/mvp.css",
+      "bytes": 13073,
+      "sha256": "f3beda773998ef51d1390128c90ec5a63ba4c3f41e40f9a36aa0ca4764aadfff"
+    },
+    {
+      "path": "qwen-probe/public/mvp.html",
+      "bytes": 13595,
+      "sha256": "7e782e6fbe36a31c6964aa3cb8e7d4b4cf4b03bcc50a50b7d1adc148444e1e80"
+    },
+    {
+      "path": "qwen-probe/public/styles.css",
+      "bytes": 7707,
+      "sha256": "56257c6fd8db67c292ab0cb6102fc4984f2e40e5c2b3f3c8c5b121045d2a9ac6"
+    },
+    {
+      "path": "qwen-probe/public/turn-detector.mjs",
+      "bytes": 2133,
+      "sha256": "c167f1cc0b644af5b2409b3de5001d881616d5c1cdd40d1f4d29be1aca367e6d"
+    },
+    {
+      "path": "qwen-probe/scripts/build-knowledge-graph.mjs",
+      "bytes": 663,
+      "sha256": "33f1f5541d486e7efa93539e4a7fc6f25fe4368bcfcfe013b611d3bd79b1ec8d"
+    },
+    {
+      "path": "qwen-probe/scripts/build-release.mjs",
+      "bytes": 12024,
+      "sha256": "b1bc56fbeb9d8d28235d3bea1a544b8fcc03a12effb6fc767bb23f942a30a95e"
+    },
+    {
+      "path": "qwen-probe/scripts/evaluate-knowledge.mjs",
+      "bytes": 5839,
+      "sha256": "dffaab5181e558380d301afa8172913816a102cab71ddaa942f9aefbb79dc2b6"
+    },
+    {
+      "path": "qwen-probe/scripts/review-knowledge.mjs",
+      "bytes": 7837,
+      "sha256": "9a189e6d27e9403c5dc335c6236fbc6b6bc4d3c3653eae2047bf242858b0ed09"
+    },
+    {
+      "path": "qwen-probe/server.mjs",
+      "bytes": 5109,
+      "sha256": "d0b861f2279bb0155eb1b58aad2033b2f020d2e6b91097fb2b9daed2f7358620"
+    },
+    {
+      "path": "qwen-probe/tests/app.test.mjs",
+      "bytes": 19647,
+      "sha256": "a27bfc5ce3431b9fb14bb5101bf426b95290fd1527c05f0ceb154daf30319adf"
+    },
+    {
+      "path": "qwen-probe/tests/audio.test.mjs",
+      "bytes": 20354,
+      "sha256": "479557953db69b16287315ed9f30df4af8dbc864b6a99418d24292fa801c1465"
+    },
+    {
+      "path": "qwen-probe/tests/coach-app.test.mjs",
+      "bytes": 49906,
+      "sha256": "5b3a40dc86ba088d39d732148b6d27af6740e56d10fd02b4edcd55405397b78e"
+    },
+    {
+      "path": "qwen-probe/tests/coach-connection.test.mjs",
+      "bytes": 13841,
+      "sha256": "00ea443492ce8bcff6cdede28856ce1fd3da0e23d635d083473e898e7aaf1ea3"
+    },
+    {
+      "path": "qwen-probe/tests/coach-page.test.mjs",
+      "bytes": 8067,
+      "sha256": "ede3d0091f98bbc3ed5b3c955b7590d038831f7316a456f8c5475668dcb37ef9"
+    },
+    {
+      "path": "qwen-probe/tests/coach-server.test.mjs",
+      "bytes": 9159,
+      "sha256": "a687919a731a675c78c0566f9eb8d8cb41843316cf120f853b6d119b24f36245"
+    },
+    {
+      "path": "qwen-probe/tests/coach-session.test.mjs",
+      "bytes": 11368,
+      "sha256": "52e9ace16941a29a9335e30dd6c803c178a77469253afb25baeae476640885d1"
+    },
+    {
+      "path": "qwen-probe/tests/connection.test.mjs",
+      "bytes": 17781,
+      "sha256": "8e7b59e0d3ac9d37565e52383c1f2f2d1bc97ad6c7511b5289bbece707c1e410"
+    },
+    {
+      "path": "qwen-probe/tests/doubao-coach.test.mjs",
+      "bytes": 62940,
+      "sha256": "e6470c6ba3295537f00f908422c5876c3d1c1ed751f60d09c222ac19d03d8c00"
+    },
+    {
+      "path": "qwen-probe/tests/doubao-protocol.test.mjs",
+      "bytes": 17719,
+      "sha256": "f953b77fc57e73e149e4649804537308f0c5ee8fe9fc8205814e6684c52d16d7"
+    },
+    {
+      "path": "qwen-probe/tests/feedback.test.mjs",
+      "bytes": 19315,
+      "sha256": "fa42268f1d64e4cc69d6a161a11a16c314b09012b435ec7ee617b555919082da"
+    },
+    {
+      "path": "qwen-probe/tests/knowledge-evaluation.test.mjs",
+      "bytes": 10817,
+      "sha256": "1ef35fdea3b0d1b06d0dc3b832f38346c7a731c6b97497d8996d15b526d32eb2"
+    },
+    {
+      "path": "qwen-probe/tests/knowledge-review-cli.test.mjs",
+      "bytes": 11159,
+      "sha256": "ed983450ebbc7d0da3bbed1ef956d846624aed8a6397f4c767102d55d50ebd46"
+    },
+    {
+      "path": "qwen-probe/tests/knowledge-review.test.mjs",
+      "bytes": 9385,
+      "sha256": "3c522d26e3773ab17fc5494261ff7d485949311bd304c4af910a30e48f093864"
+    },
+    {
+      "path": "qwen-probe/tests/knowledge.test.mjs",
+      "bytes": 17626,
+      "sha256": "c506dcf3222bd1b12a08b837925e652d2a729ca1a87d4cd46181e84a7ed644d8"
+    },
+    {
+      "path": "qwen-probe/tests/material.test.mjs",
+      "bytes": 22290,
+      "sha256": "fcf4c63fa85ff0198f031820336f36aafd73a9b23f8faa751a06ab344e9df242"
+    },
+    {
+      "path": "qwen-probe/tests/mvp-app.test.mjs",
+      "bytes": 9847,
+      "sha256": "f5c7906a9807356faa26afc414484dc3727037bb27b57b21722d36900b5f2d9b"
+    },
+    {
+      "path": "qwen-probe/tests/mvp-backup.test.mjs",
+      "bytes": 8668,
+      "sha256": "48deab047e331578b7ae30599a3c0fced7128fee4e4784eaf33217efd4df621e"
+    },
+    {
+      "path": "qwen-probe/tests/mvp-part2.test.mjs",
+      "bytes": 2023,
+      "sha256": "35f9313f72b6f9673c8d06031ad017daafe537233df6b3a1a4290fd796ebac94"
+    },
+    {
+      "path": "qwen-probe/tests/mvp-server.test.mjs",
+      "bytes": 7122,
+      "sha256": "3a639a976b897ecce8efa7728fd2e97bdbde881d8a4e69276485d233a61f94be"
+    },
+    {
+      "path": "qwen-probe/tests/mvp-session.test.mjs",
+      "bytes": 9948,
+      "sha256": "6f3e1bc7b0755c39f91289c60adf53cc07d0cfb6fbc675afbfeba82524b1ab2f"
+    },
+    {
+      "path": "qwen-probe/tests/mvp-store.test.mjs",
+      "bytes": 19456,
+      "sha256": "64b2a90d728c7e553e71f577df89041c790d6ac94ec6b7489149b654eaa1b15a"
+    },
+    {
+      "path": "qwen-probe/tests/provider.test.mjs",
+      "bytes": 14441,
+      "sha256": "fc8f616d6392ac07f2ac4e50ef58f0dc7bdd8c6ba74ca4e5ccb2eca11b37eb18"
+    },
+    {
+      "path": "qwen-probe/tests/release.test.mjs",
+      "bytes": 13844,
+      "sha256": "25fe83b80d1d060aa09635e1ca8b59e103ba0cf09735ff75593dc35dbea5bb86"
+    },
+    {
+      "path": "qwen-probe/tests/server.test.mjs",
+      "bytes": 6945,
+      "sha256": "2b1b1ce150cd32aa65b06e85517f88c117cda4a9ebd3ebaeed5845e35da4882a"
+    },
+    {
+      "path": "qwen-probe/tests/turn-detector.test.mjs",
+      "bytes": 3523,
+      "sha256": "72fc8c94be314798198581c012686d5d059a2b06f9aabb2d3c8c6b4b7d4b1505"
+    }
+  ]
+}
